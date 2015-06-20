@@ -1,0 +1,98 @@
+*
+{
+	margin: 0 auto;
+	padding: 0px;
+}
+body
+{
+	
+}
+
+#game_table
+{
+	margin-top: 30px;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: #92BAE8;
+	width: 1000px;
+	height: 600px;
+	display: inline-block;
+	overflow: hidden;
+}
+.card
+{
+	height: 140px;
+	width: 100px;
+	border-radius: 3px;
+}
+
+	.cardback 
+	{
+		background: url("../scan1/0.jpg");
+		background-size: cover;
+	}
+
+	.cardhand_1
+	{
+		margin-right: 5px;
+		float: left;
+		background: url(../scan1/1.jpg) top center / cover;
+		
+	}
+	.cardhand_5
+	{		
+		margin-right: 5px;
+		float: left;
+		background: url("../scan1/5.jpg") top center / cover;
+	}
+#deal
+{
+	clear: both;
+	margin: 10px;
+}
+#card_deck
+{
+	text-align: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+
+}
+	
+	#numbers_of_cards_left
+	{
+		
+		color: white;
+
+	}
+
+	#wildcard
+	{
+		position: absolute;
+		left: 20px;
+		top: -210px;
+	}
+
+	#player1_area
+	{
+		overflow: visible;
+		position: relative;
+		top: 300px;
+		left: 148px;
+	}
+		#p1hands
+		{
+			position: relative;
+			top: 14px;
+		}
+		
+		#p1hands div
+		{
+			transform-origin: bottom;
+			transition: all 0.2s ease;
+		}
+		
+		#p1hands div:hover
+		{
+			transform: scale(2);
+		}
